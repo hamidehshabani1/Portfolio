@@ -1,0 +1,16 @@
+
+main:
+  - title: "Home"
+    url: /Portfolio/
+  - title: "About"
+    url: /Portfolio/#about
+  - title: "Skills"
+    url: /Portfolio/#skills
+  - title: "Projects"
+    url: /Portfolio/#projects
+  - title: "Experience"
+    url: /Portfolio/#experience
+  - title: "Education"
+    url: /Portfolio/#education
+  - title: "Contact"
+    url: /Portfolio/#contact
