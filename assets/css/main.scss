@@ -3,34 +3,43 @@
 ---
 
 @charset "utf-8";
+
+/* Theme skin */
+@import "minimal-mistakes/skins/dark";
+
+/* Main theme */
 @import "minimal-mistakes";
 
+/* Custom colors */
+$navy: #101827;
+$navy-light: #18263a;
+$blue-light: #a9c5e5;
+$text-light: #e8edf5;
+
 body {
-  background-color: #101827;
-  color: #e8edf5;
+  background: $navy;
+  color: $text-light;
+}
+
+.masthead,
+.greedy-nav,
+.page__footer {
+  background: $navy;
 }
 
 .masthead {
-  background: #101827;
   border-bottom: 1px solid #28364b;
 }
 
-.greedy-nav {
-  background: #101827;
-}
-
-.greedy-nav a {
-  color: #e8edf5 !important;
-}
-
+.greedy-nav a,
 .page__content {
-  color: #dce5f1;
+  color: $text-light;
 }
 
+.page__content h1,
 .page__content h2,
 .page__content h3 {
   color: #d9e6f5;
-  border-bottom-color: #34465e;
 }
 
 .hero-section {
@@ -42,12 +51,12 @@ body {
 }
 
 .hero-section h1 {
-  color: #ffffff;
+  color: white;
   font-size: 2.5em;
 }
 
 .hero-section h2 {
-  color: #a9c5e5;
+  color: $blue-light;
   border: none;
 }
 
@@ -56,7 +65,7 @@ body {
 }
 
 .hero-label {
-  color: #a9c5e5;
+  color: $blue-light;
   letter-spacing: 3px;
   font-size: 0.8em;
 }
@@ -74,20 +83,19 @@ body {
 
 .portfolio-button.secondary {
   background: transparent;
-  color: #ffffff !important;
-  border: 1px solid #a9c5e5;
+  color: white !important;
+  border: 1px solid $blue-light;
 }
 
 .page__footer {
-  background: #101827;
   border-top: 1px solid #28364b;
-  color: #dce5f1;
+  color: $text-light;
 }
 
 a {
-  color: #a9c5e5;
+  color: $blue-light;
 }
 
 table {
-  background: #18263a;
+  background: $navy-light;
 }
