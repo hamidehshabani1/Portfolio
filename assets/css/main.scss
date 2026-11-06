@@ -1,0 +1,93 @@
+
+---
+---
+
+@charset "utf-8";
+@import "minimal-mistakes";
+
+body {
+  background-color: #101827;
+  color: #e8edf5;
+}
+
+.masthead {
+  background: #101827;
+  border-bottom: 1px solid #28364b;
+}
+
+.greedy-nav {
+  background: #101827;
+}
+
+.greedy-nav a {
+  color: #e8edf5 !important;
+}
+
+.page__content {
+  color: #dce5f1;
+}
+
+.page__content h2,
+.page__content h3 {
+  color: #d9e6f5;
+  border-bottom-color: #34465e;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #14243d, #243d5c);
+  border: 1px solid #405775;
+  border-radius: 18px;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+
+.hero-section h1 {
+  color: #ffffff;
+  font-size: 2.5em;
+}
+
+.hero-section h2 {
+  color: #a9c5e5;
+  border: none;
+}
+
+.hero-section p {
+  line-height: 1.9;
+}
+
+.hero-label {
+  color: #a9c5e5;
+  letter-spacing: 3px;
+  font-size: 0.8em;
+}
+
+.portfolio-button {
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 12px 8px 0 0;
+  background: #c3d8ef;
+  color: #14243d !important;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none !important;
+}
+
+.portfolio-button.secondary {
+  background: transparent;
+  color: #ffffff !important;
+  border: 1px solid #a9c5e5;
+}
+
+.page__footer {
+  background: #101827;
+  border-top: 1px solid #28364b;
+  color: #dce5f1;
+}
+
+a {
+  color: #a9c5e5;
+}
+
+table {
+  background: #18263a;
+}
