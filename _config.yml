@@ -6,7 +6,29 @@ plugins:
 title: "Hamideh Shabani"
 name: "Hamideh Shabani"
 description: "Computer Engineer | AI & Technology"
-minimal_mistakes_skin: "default"
-
 url: "https://hamidehshabani1.github.io"
 baseurl: "/Portfolio"
+repository: "hamidehshabani1/Portfolio"
+
+minimal_mistakes_skin: "dark"
+search: false
+breadcrumbs: false
+
+author:
+  name: "Hamideh Shabani"
+  avatar: "/assets/images/avatar.jpg"
+  bio: "Computer Engineer | AI & Programming Instructor"
+  location: "Tehran, Iran"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/hamidehshabani1"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:ms.hamideh.shabani@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/hamideh-shabani/"
+
+include:
+  - _pages
